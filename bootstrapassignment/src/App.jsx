@@ -91,7 +91,7 @@ function Hero({ imgSrc, quotes }) {
   return (
     <>
       <div className="px-4 py-5 my-5 text-center" style={styles}>
-        <h1 className="display-5 fw-bold" style={{ color: "orange" }}>
+        <h1 className="display-5 fw-bold" style={{ color: "white" }}>
           Inspirational quotes
         </h1>
         <div className="col-lg-6 mx-auto">
@@ -101,12 +101,12 @@ function Hero({ imgSrc, quotes }) {
               style={{
                 height: 70,
 
-                color: "orange",
+                color: "white",
               }}
             >
               {quote.quote}
             </p>
-            <h2 className="lead mb-4" style={{ color: "orange" }}>
+            <h2 className="lead mb-4" style={{ color: "white" }}>
               {quote.author}
             </h2>
           </div>
