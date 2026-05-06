@@ -71,10 +71,10 @@ function App() {
 }
 
 function Hero({ imgSrc, quotes }) {
-  console.log(typeof quotes);
-  console.log(typeof imgSrc);
+  // console.log(typeof quotes);
+  // console.log(typeof imgSrc);
   const getRandQuote = () => {
-    console.log(quotes[0]);
+    // console.log(quotes[0]);
 
     return quotes[Math.floor(Math.random() * quotes.length)];
   };
